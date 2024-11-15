@@ -40,7 +40,7 @@ params:
 
   services:
     googleAnalytics:
-      ID: "G-7LBBSDQSK0"
+      ID: ""
 
   fuseOpts:
     isCaseSensitive: false 
