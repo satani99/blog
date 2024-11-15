@@ -1,0 +1,7 @@
+[submodule "nikhil.blog/themes/PaperMod"]
+	path = nikhil.blog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "nikhil.blog/public"]
+	path = nikhil.blog/public
+	url = https://github.com/satani99/satani99.github.io.git
+	branch = main

@@ -1,0 +1,59 @@
+baseURL: https://satani99.github.io/
+languageCode: en-us
+title: Nikhil's blog
+theme: PaperMod
+
+params:
+  env: production
+  title: Nikhil's blog
+  description: "Hi, I'm Nikhil Satani and I'm an AI Researcher. I'm interested in deep-tech, sci-fi and anime."
+  keywords: [Blog, Portfolio, PaperMod]
+  author: "Nikhil Satani"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  showtoc: true
+  tocopen: false
+  comments: false
+  UseHugoToc: false
+  
+  profileMode:
+    enabled: false
+    title: Nikhil's blog
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+  
+  homeInfoParams:
+    Title: "😊Hi there F44B. I'm Nikhil."
+    Content: "Welcome to my blog. I'm deep learning engineer. I'm passionate about deep-tech, sci-fi, anime and startups. I'll try to put my ideas into blog about life, the universe and everything." 
+
+
+  socialIcons:
+    - name: X
+      url: "https://x.com/nikhil_satani"
+    - name: github
+      url: "https://github.com/satani99"
+
+
+  services:
+    googleAnalytics:
+      ID: "G-7LBBSDQSK0"
+
+  fuseOpts:
+    isCaseSensitive: false 
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+  outputs:
+    home:
+      - HTML
+      - RSS 
+      - JSON
